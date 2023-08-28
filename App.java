@@ -4,6 +4,7 @@ public class App {
 
     public static void main(String[] args) {
         
+        //these are just instances, and then we can call on Quotes class methods
         Quotes greetBot = new Quotes();
         Quotes currentDate = new Quotes();
         Quotes wittyRemark = new Quotes();

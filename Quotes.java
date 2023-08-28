@@ -1,6 +1,8 @@
 import java.util.Date;
 public class Quotes {
 
+    //can have multiple methods with the same name, their signature is based on the parameters
+
     public String guestGreeting(String name){
         return String.format("Welcome to Wayne Manor. Please, come in..%s", name);
     }
